@@ -1,0 +1,55 @@
+[
+    {
+        "id": "505d0bd8a1828b91",
+        "type": "subflow",
+        "name": "Subflow 1",
+        "info": "",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "0a0606a620cada00",
+        "type": "inject",
+        "z": "505d0bd8a1828b91",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 160,
+        "wires": [
+            [
+                "61b103a41a8bcd35"
+            ]
+        ]
+    },
+    {
+        "id": "61b103a41a8bcd35",
+        "type": "debug",
+        "z": "505d0bd8a1828b91",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    }
+]
